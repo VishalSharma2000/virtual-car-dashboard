@@ -1,0 +1,47 @@
+#gauge-container {
+    width: 650px;
+    height: 330px;
+    overflow: hidden;
+    margin: 0 auto;
+
+    /* background-color: transparent; */
+    background: transparent url("https://demos.telerik.com/kendo-ui/content/dataviz/dashboards/car-dashboard.png");
+    background-repeat: no-repeat;
+}
+
+#rpm {
+    width: 140px;
+    height: 150px;
+    margin: 75px 0 0 38px;
+    /* background-color: rgb(207, 25, 25); */
+    /* display: inline-block; */
+    position: absolute;
+}
+
+#kmh {
+    width: 220px;
+    height: 220px;
+    margin: 50px 0px 0 200px;
+    position: absolute;
+    /* background-color: yellow; */
+    /* display: inline-block; */
+}
+
+#fuel {
+    width: 80px;
+    height: 85px;
+    margin: 75px 0 0 475px;
+    position: absolute;
+    /* background-color: red; */
+}
+
+#water-temp {
+    width: 85px;
+    height: 80px;
+    margin: 160px 0 0 475px;
+    /* background-color: red; */
+}
+
+.speed {
+    margin: 50px 700px;
+}

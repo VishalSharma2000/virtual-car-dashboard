@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Speed-o-meter></Speed-o-meter></title>
+
+    <!-- kendo github packgae links  -->
+    <link href="http://kendo.cdn.telerik.com/2014.2.716/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="http://kendo.cdn.telerik.com/2014.2.716/styles/kendo.default.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2014.2.716/styles/kendo.default.mobile.min.css" />
+    <script src="http://kendo.cdn.telerik.com/2014.2.716/js/jquery.min.js"></script>
+    <script src="http://kendo.cdn.telerik.com/2014.2.716/js/kendo.all.min.js"></script>
+    <script src="http://kendo.cdn.telerik.com/2014.2.716/js/kendo.ui.core.min.js"></script>
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="meter-container">
+        <div id="gauge-container">
+            <div id="rpm"></div>
+            <div id="kmh"></div>
+            <div id="fuel"></div>
+            <div id="water-temp"></div>
+        </div>
+
+        <div class="msg"></div>
+    </div>
+    <button class="speed">Acc</button>
+    <button class="brake">Brake</button>
+    <script src="app.js"></script>
+</body>
+</html>
